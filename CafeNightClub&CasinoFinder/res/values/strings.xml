@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cafe NightClub &amp; Casino Finder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="place_type_name">
+        <item>Cafe</item>
+        <item>NightClub</item>
+        <item>Casino</item>
+        
+    </string-array>
+    
+
+</resources>

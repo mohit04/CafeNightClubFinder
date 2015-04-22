@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/plc_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="place_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <View
+        android:id="@+id/line1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/plc_name"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/listDivider" />
+    
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/line1"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="14dp"
+        android:text="distance"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+      <!--  <TextView
+              android:id="@+id/address"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@+id/distance"
+               android:layout_marginLeft="18dp"
+              android:layout_marginTop="18dp"
+              android:text="address"
+              android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+              
+              <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/distance"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:text="Address:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/vicinity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/add"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/distance"
+        android:layout_marginTop="20dp"
+        android:text="vicinity"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vicinity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="rating"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/rating"
+        android:layout_marginTop="20dp"
+        android:background="?android:attr/listDivider" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_below="@id/line" >
+        
+        <ImageButton
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/common_signin_btn_icon_normal_dark" />
+        
+         <ImageButton
+        android:id="@+id/navigation"
+        android:layout_toRightOf="@id/phone"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/common_signin_btn_icon_normal_dark" />
+         
+          <ImageButton
+        android:id="@+id/web"
+        android:layout_toRightOf="@id/navigation"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/common_signin_btn_icon_normal_dark" />
+          
+           <ImageButton
+        android:id="@+id/googleplus"
+        android:layout_toRightOf="@id/web"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/common_signin_btn_icon_normal_dark" />
+           
+           
+          <!--  <ImageButton
+        android:id="@+id/fav"
+        android:layout_toRightOf="@id/googleplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/common_signin_btn_icon_normal_dark" />   -->
+           
+           
+      
+        
+    </RelativeLayout>
+    
+          <View
+        android:id="@+id/line2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/relativeLayout1"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/listDivider" />
+
+        
+
+</RelativeLayout>
